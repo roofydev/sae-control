@@ -1,0 +1,14 @@
+# Steal an Egg: anti-cheat remote switch (roofydev/StealAnEgg#2053). Published at
+# https://roofydev.github.io/sae-control/checks.txt; every player's world reads it at join and every 5 minutes.
+#
+# A line can only LOWER a check to watch-only: it keeps logging what it would have done and changes nothing.
+# No line can turn a check on, tighten a limit, or name a player. An empty file = every check as shipped.
+#
+#   watch <key>      (or: off <key>, the same)     # anything after a # is a comment
+#
+# Keys: reach (the carry checks AC-1..AC-4, and the route with them), route (route_slow + route_skip),
+#   loose (loose_ledger loose_type loose_dupe loose_personal loose_age), impossible (impossible_cap + impossible_mix),
+#   integrity, restore, crosscheck, seal, perk_cache, exempt, hold, or all.
+#
+# Example (remove the # to use it):
+# watch loose_type   # 2026-11-06: honest eggs hidden after the Frost update, fix in #NNNN
