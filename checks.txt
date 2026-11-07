@@ -12,3 +12,4 @@
 #
 # Example (remove the # to use it):
 # watch loose_type   # 2026-11-06: honest eggs hidden after the Frost update, fix in #NNNN
+watch loose_foreign   # 2026-11-07: Update 3 upload; old and new builds share instances for a few days. Remove by 2026-11-10.
