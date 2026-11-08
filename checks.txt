@@ -13,3 +13,4 @@
 # Example (remove the # to use it):
 # watch loose_type   # 2026-11-06: honest eggs hidden after the Frost update, fix in #NNNN
 watch loose_foreign   # 2026-11-07: Update 3 upload; old and new builds share instances for a few days. Remove by 2026-11-10.
+watch reach   # 2026-11-08: AC-4 drops honest players at the 32 m/s cap (roofydev/StealAnEgg#2369); fixed in hotfix 2 (#2349). Remove when hotfix 2 is uploaded.
