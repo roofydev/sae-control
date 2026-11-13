@@ -1,0 +1,1 @@
+# Steal an Egg control file. Lines are added by the world owner; an empty file changes nothing.
