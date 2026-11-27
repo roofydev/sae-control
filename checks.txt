@@ -13,3 +13,8 @@
 # Example (remove the # to use it):
 # watch loose_type   # 2026-11-06: honest eggs hidden after the Frost update, fix in #NNNN
 watch rift_proof   # 2026-11-22: a bought Portal Key fight stayed shut for most of the lobby (honest fights unproven); lowered to watch until the cause is fixed
+#
+# WorldPulse (roofydev/StealAnEgg#3516, D-214): anonymous statistics carried in saves. NOT an anti-cheat line.
+#   "pulse 0" (or deleting the line) stops it on every client within about 5 minutes; what is saved stays in the saves.
+#   Rollback build if it lags: branch gh-3604-pulse-revert (roofydev/StealAnEgg#3604).
+pulse 1   # 2026-11-27: owner turned it on for the live build (net 9: every client, Quest included)
